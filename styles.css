@@ -1,0 +1,188 @@
+:root {
+    --primary-color: #881e1e;
+    --secondary-color: #fff;
+    --tertiary-color: #000;
+    --link-color:#AEF5A8;
+    --font-size-small: 18px;
+    --font-size-medium: 24px;
+    --font-size-big: 32px;
+  
+    font-family: 'Antic Didone', serif;
+  }
+ 
+  /*estilos de la sección about Banner*/
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+.inicio{
+    height: 60px;
+    width: 100%;
+    background-color: var(--primary-color);
+    
+}
+.imagen_principal{
+    background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("assets/clinica-internacional-prevenir-anemia-en-ninos-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 20%;
+    height: 500px;
+    width: 100%;
+}
+
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: var(--font-size-big);
+    font-size: inline;
+    color:white;
+    letter-spacing: 2px;
+}
+
+nav ul{
+    margin-right: 20px;
+    float: right;
+    line-height: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color:var(--secondary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    transition: 0.5s ease;
+}
+
+.article{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+
+.article h1{
+    font-size: var(--font-size-big);
+    color: var(--secondary-color);
+    transform: translateY(220px);
+    text-shadow: 2px 2px black;
+}
+
+
+
+  /*estilos de la sección about product*/
+  .about-product{
+    color: var(--primary-color);
+    .container{
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      display: flex;
+      align-items: center;
+      .container-column{
+        width: 70%;
+        margin-right: 32px;
+        text-align: justify;
+      }
+      .image-container{
+        width: 40%;
+        overflow:hidden;
+        align-items: right;
+      }
+    }
+  }
+  .p1{
+      font-size: var(--font-size-small);
+  }
+  .QUE-ES{
+      font-size: var(--font-size-big);
+      font-weight: bold;
+      margin-bottom: 32px;
+  }
+
+
+
+    /*estilos de la sección us*/
+    .about-us{
+      color: #fff;
+      background-color: #881e1e;
+      .nosotros{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        align-items: center;
+        .nosotros-parrafo{
+          width: 70%;
+          margin-left: 32px;
+          text-align: justify;
+          align-items: end;
+        }
+        .imagen-nosotros{
+          width: 40%;
+          overflow:hidden;
+        }
+      }
+    }
+    .p2{
+        font-size: var(--font-size-small);
+    }
+    .QUIEN-ES{
+        font-size: var(--font-size-big);
+        font-weight: bold;
+        margin-bottom: 32px;
+    }
+
+
+  /*estilos del footer*/
+  .footer {
+    color: var(--secondary-color);
+    font-size: var(--font-size-small);
+    max-height: 20%;
+    padding: 2%;
+    justify-content: center;
+    background-color: var(--primary-color);
+    .footer-bottom{
+      padding-top: 20px;
+      align-items: center;
+      display: flex;
+      padding-left: 35%;
+      padding-right: 35%;
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      .footer-column{
+        width: calc(100%/3);
+      }
+    }
+  }
+  
+  .footer li a{
+    color: var(--secondary-color);
+  }
+  .footer li a:hover{
+    color: var(--link-color);
+    transition: 0.25s ease;
+  }
+  
+  /* Dispositivos móviles */
+  @media only screen and (max-width: 860px) {
+  }
+  
