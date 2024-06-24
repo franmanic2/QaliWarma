@@ -149,15 +149,23 @@ nav ul li a:hover{
         margin-bottom: 32px;
     }
 
-
+  .about-us2
+  {
+    color: #fff;
+    background-color: #881e1e;
+    .contact{
+      text-align: center;
+      padding: 5%;
+    }
+  }
   /*estilos del footer*/
   .footer {
-    color: var(--secondary-color);
+    color: #000;
     font-size: var(--font-size-small);
     max-height: 20%;
     padding: 2%;
     justify-content: center;
-    background-color: var(--primary-color);
+    background-color: #fff;
     .footer-bottom{
       padding-top: 20px;
       align-items: center;
@@ -175,7 +183,7 @@ nav ul li a:hover{
   }
   
   .footer li a{
-    color: var(--secondary-color);
+    color: #000;
   }
   .footer li a:hover{
     color: var(--link-color);
@@ -185,4 +193,5 @@ nav ul li a:hover{
   /* Dispositivos móviles */
   @media only screen and (max-width: 860px) {
   }
+
   
